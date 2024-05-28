@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _isLoading = true;
     });
 
-    final String apiUrl = 'https://jsonplaceholder.typicode.com/posts';
+    const String apiUrl = 'https://jsonplaceholder.typicode.com/posts';
     final response = await http.post(
       Uri.parse(apiUrl),
       headers: <String, String>{
