@@ -1,3 +1,4 @@
+import 'package:api_testing/post.dart';
 import 'package:flutter/material.dart';
 
 import 'home_screen.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:FatchData1()
+      home:MyHomePage()
     );
   }
 }
